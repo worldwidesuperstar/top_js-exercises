@@ -91,5 +91,8 @@ document.getElementById("reset-score").addEventListener('click', () => {
     oscore = 0;
     player_score.textContent = pscore;
     opp_score.textContent = oscore;
+
+    const output = document.getElementById('output');
+    output.innerHTML = "";
 });
 
